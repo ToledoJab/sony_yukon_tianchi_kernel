@@ -21,8 +21,8 @@
 #undef TRACE_INCLUDE_FILE
 #define TRACE_INCLUDE_FILE mdss_mdp_trace
 
-#include <linux/tracepoint.h>
-#include "mdss_mdp.h"
+#include "linux/tracepoint.h"
+#include "../../drivers/video/msm/mdss/mdss_mdp.h"
 
 DECLARE_EVENT_CLASS(mdp_sspp_template,
 	TP_PROTO(struct mdss_mdp_pipe *pipe),
